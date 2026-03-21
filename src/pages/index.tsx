@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 
@@ -16,6 +17,7 @@ export default function Home() {
     <div
       className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gray-800 text-white`}
     >
+      <Header />
       <main className={`${geistSans.className} mx-auto flex min-h-screen w-full max-w-5xl items-center px-6 py-10 lg:px-10`}>
         <section className="w-full overflow-hidden rounded-[32px] border border-gray-400 bg-[radial-gradient(circle_at_top_left,_rgba(45,235,252,0.14),_transparent_35%),linear-gradient(135deg,_rgba(44,133,252,0.16),_rgba(11,12,15,0.92)_65%)] p-8 lg:p-12">
           <p className="text-body-tag uppercase tracking-[0.24em] text-cyan-100">
