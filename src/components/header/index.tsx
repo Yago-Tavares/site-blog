@@ -1,6 +1,6 @@
 import Link from "next/link"
 import BrandLogo from "../../../public/Brand-Logo.svg"
-import Button from "../core/buttons"
+import Button from "../ui/buttons"
 import { useRouter } from "next/router"
 
 export default function Header() {
