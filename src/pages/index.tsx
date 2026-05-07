@@ -2,6 +2,7 @@ import FeatureSection from "@/components/feature-section";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
+import { SupportSection } from "@/components/support-section";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <FeatureSection />
+        <SupportSection />
       </main>
       <Footer />
     </div >
